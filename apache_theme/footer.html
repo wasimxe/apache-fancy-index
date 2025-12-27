@@ -1,0 +1,18 @@
+</div><!--/.wrapper-->
+
+<div class="footer">
+	Online Server: <a href="https://www.tanxe.com/">Tanxe Studio</a>
+</div><!--/.footer-->
+<script>
+// grab the 2nd child and add the parent class. tr:nth-child(2)
+document.getElementsByTagName('tr')[1].className = 'parent';
+var ele = document.getElementById('indextitle');
+var path = window.location.href.replace("http://","").split('/');
+var newHTML = '';
+var link = 'http://';
+for(var i=0;i<path.length-1;i++){
+	link += path[i]+"/";
+	newHTML+="<a href='"+link+"'>"+decodeURIComponent(path[i])+"</a>/";
+}
+document.body.innerHTML = "http://"+newHTML + document.body.innerHTML;
+</script>

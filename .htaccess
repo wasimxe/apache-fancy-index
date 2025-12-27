@@ -1,0 +1,53 @@
+Options +Indexes
+IndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=* +IconsAreLinks
+IndexHeadInsert "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+IndexIgnore .dropbox .vscode .dropbox.cache desktop.ini .htaccess .archive/apache_theme favicon.* .archive web/pms-html
+
+AddIcon /.archive/apache_theme/icons/blank.png ^^BLANKICON^^
+AddIcon /.archive/apache_theme/icons/folder.png ^^DIRECTORY^^
+AddIcon /.archive/apache_theme/icons/folder-home.png ..
+AddIcon /.archive/apache_theme/icons/archive.png .7z .bz2 .cab .gz .tar
+AddIcon /.archive/apache_theme/icons/audio.png .aac .aif .aifc .aiff .ape .au .flac .iff .m4a .mid .mp3 .mpa .ra .wav .wma .f4a .f4b .oga .ogg .xm .it .s3m .mod
+AddIcon /.archive/apache_theme/icons/bin.png .bin .hex
+AddIcon /.archive/apache_theme/icons/bmp.png .bmp
+AddIcon /.archive/apache_theme/icons/c.png .c
+AddIcon /.archive/apache_theme/icons/calc.png .xlsx .xlsm .xltx .xltm .xlam .xlr .xls .csv
+AddIcon /.archive/apache_theme/icons/cpp.png .cpp
+AddIcon /.archive/apache_theme/icons/css.png .css .sass .scss
+AddIcon /.archive/apache_theme/icons/deb.png .deb
+AddIcon /.archive/apache_theme/icons/doc.png .doc .docx .docm .dot .dotx .dotm .log .msg .odt .pages .rtf .tex .wpd .wps
+AddIcon /.archive/apache_theme/icons/draw.png .svg .svgz
+AddIcon /.archive/apache_theme/icons/eps.png .ai .eps
+AddIcon /.archive/apache_theme/icons/exe.png .exe
+AddIcon /.archive/apache_theme/icons/gif.png .gif
+AddIcon /.archive/apache_theme/icons/h.png .h
+AddIcon /.archive/apache_theme/icons/html.png .html .xhtml .shtml .htm .URL .url
+AddIcon /.archive/apache_theme/icons/ico.png .ico
+AddIcon /.archive/apache_theme/icons/java.png .jar
+AddIcon /.archive/apache_theme/icons/jpg.png .jpg .jpeg .jpe
+AddIcon /.archive/apache_theme/icons/js.png .js .json
+AddIcon /.archive/apache_theme/icons/markdown.png .md
+AddIcon /.archive/apache_theme/icons/package.png .pkg .dmg
+AddIcon /.archive/apache_theme/icons/pdf.png .pdf
+AddIcon /.archive/apache_theme/icons/php.png .php .phtml
+AddIcon /.archive/apache_theme/icons/playlist.png .m3u .m3u8 .pls .pls8
+AddIcon /.archive/apache_theme/icons/png.png .png
+AddIcon /.archive/apache_theme/icons/ps.png .ps
+AddIcon /.archive/apache_theme/icons/psd.png .psd
+AddIcon /.archive/apache_theme/icons/py.png .py
+AddIcon /.archive/apache_theme/icons/rar.png .rar
+AddIcon /.archive/apache_theme/icons/rb.png .rb
+AddIcon /.archive/apache_theme/icons/rpm.png .rpm
+AddIcon /.archive/apache_theme/icons/rss.png .rss
+AddIcon /.archive/apache_theme/icons/script.png .bat .cmd .sh
+AddIcon /.archive/apache_theme/icons/sql.png .sql
+AddIcon /.archive/apache_theme/icons/tiff.png .tiff .tif
+AddIcon /.archive/apache_theme/icons/text.png .txt .nfo
+AddIcon /.archive/apache_theme/icons/video.png .asf .asx .avi .flv .mkv .mov .mp4 .mpg .rm .srt .swf .vob .wmv .m4v .f4v .f4p .ogv
+AddIcon /.archive/apache_theme/icons/xml.png .xml
+AddIcon /.archive/apache_theme/icons/zip.png .zip
+DefaultIcon .archive/apache_theme/icons/default.png
+
+HeaderName /.archive/apache_theme/header.html
+ReadmeName /.archive/apache_theme/footer.html
+IndexStyleSheet "/.archive/apache_theme/style.css"
